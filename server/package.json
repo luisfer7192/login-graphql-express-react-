@@ -1,0 +1,27 @@
+{
+  "name": "register",
+  "version": "1.0.0",
+  "description": "graphql",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisfer7192/login-graphql-express-react-.git"
+  },
+  "author": "Luis Fernando Salazar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisfer7192/login-graphql-express-react-/issues"
+  },
+  "homepage": "https://github.com/luisfer7192/login-graphql-express-react-#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.16.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "graphql-scalars": "^1.2.6",
+    "moment": "^2.27.0"
+  }
+}
