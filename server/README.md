@@ -7,7 +7,7 @@ mutation {
     birth_date
     email
     password
-    dateFormat
+    dateFormated
   }
 }
 
@@ -17,7 +17,7 @@ mutation {
     birth_date
     email
     password
-    dateFormat
+    dateFormated
   }
 }
 ```

@@ -10,7 +10,7 @@ const typeDefs = gql`
     birth_date: Date,
     email: Email,
     password: String,
-    dateFormat: String
+    dateFormated: String
   },
   type Query {
     users: [User]

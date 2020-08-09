@@ -16,6 +16,7 @@ const resolvers = {
   },
   Mutation: {
     addUser: (parent, user) => {
+      console.log({user});
       Users.push({ ...user });
       return user;
       // using a db
@@ -24,7 +25,7 @@ const resolvers = {
     }
   },
   User: {
-    dateFormat: ({ birth_date }) => moment(birth_date).format("dddd, MMMM Do YYYY"),
+    dateFormated: ({ birth_date }) => moment(birth_date).format("dddd, MMMM Do YYYY"),
   }
 };
 

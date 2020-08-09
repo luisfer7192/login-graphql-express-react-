@@ -1,0 +1,125 @@
+.loginFormContainer {
+  position: relative;
+  background-color: #272727 !important;
+  margin: 10% auto auto auto;
+  border-top-left-radius: 48px;
+  border-top-right-radius: 48px;
+  max-width: 600px;
+}
+
+#logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -53px;
+  margin: auto;
+}
+
+.form {
+  margin-top: 57px !important;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+.form input, .form .datePicker {
+  height: 51px !important;
+  border-radius: 30.5px !important;
+  border: solid 1px #ffffff !important;
+  color: #ffffff !important;
+  background-color: #272727;
+  font-size: 16px !important;
+}
+
+.form .datePicker input {
+  border: none !important;
+}
+
+.title {
+  margin-top: 77px;
+  font-family: SFProText;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.68px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.datePicker {
+  width: 100%;
+}
+
+div[role="alert"] {
+  margin-left: 14px;
+}
+
+.policy {
+  padding-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+.policy .ant-checkbox-inner {
+  width: 24px !important;
+  height: 24px !important;
+  border-radius: 4px !important;
+  border: solid 2px #979797 !important;
+  background-color: #272727;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.policyText {
+  font-family: SFProText;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #999999;
+}
+
+.submitBtn {
+  border-radius: 30.5px !important;
+  background-color: #575757 !important;
+  width: 100%;
+  height: 51px !important;
+  margin-bottom: 50px;
+  border: none !important;
+  margin-bottom: 30px !important;
+}
+
+.textToLogin {
+  font-family: SFProText;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 50px !important;
+}
+
+@media (max-width: 1366px) {
+  .loginFormContainer {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .loginFormContainer {
+    margin-top: 25%;
+  }
+}
+
+@media (max-width: 640px) {
+  .loginFormContainer {
+    margin-top: 50%;
+  }
+}
